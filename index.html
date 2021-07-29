@@ -105,7 +105,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1W3FLZmDVNVPkrwz1I6TdapVoYYR7JL0qgrNAmde4BYA/gviz/tq?tqx=out:csv&sheet=psymap',
+        url: 'https://docs.google.com/spreadsheets/d/1W3FLZmDVNVPkrwz1I6TdapVoYYR7JL0qgrNAmde4BYA/gviz/tq?tqx=out:csv&sheet=data',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
